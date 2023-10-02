@@ -1,0 +1,33 @@
+// add new img inside section
+// connection.then(function(connect){
+//     var database = connect.db("prasang_photo_studio")
+//     database.collection("section_data").updateOne({section_name:"event photography"},{$push:{
+//         section_data:{
+//                 "img_id": "w2",
+//                 "img_src": "https://ibb.co/MncY5cC"
+//         }
+//     }}).then(function(data){
+//         console.log(data)
+//     }).catch(function(err){
+//         console.log("Error")
+//     })
+// }).catch(function(err){
+//     console.log("Error")
+// })
+
+// connection.then(function(connect){
+//     var database = connect.db("prasang_photo_studio")
+//     database.collection("section_data").updateOne({section_name:"event photography"},{
+//         $pull:{
+//             section_data:{
+//                 "img_id":"w2"
+//             }
+//         }
+//     }).then(function(data){
+//         console.log(data)
+//     }).catch(function(err){
+//         console.log("Error")
+//     });
+// }).catch(function(err){
+//     console.log("Error");
+// })
