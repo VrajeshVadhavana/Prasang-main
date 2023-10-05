@@ -87,7 +87,7 @@ app.post("/:id/delete_img",(req,res)=>{
           })
 })
 app.post("/admin_login",(req,res)=>{
-    if(req.body.admin=="NikunjBhimani" && req.body.password=="Prasang.Photo"){
+    if((req.body.admin=="NikunjBhimani" || req.body.admin=="NikunjBhimani ") && req.body.password=="Prasang.Photo"){
         res.json({"status":"admin access"})
     }
     else{
